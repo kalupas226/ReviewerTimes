@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B73E5F3251EE9DE005963F4 /* RevewerTimesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E5F2251EE9DE005963F4 /* RevewerTimesApp.swift */; };
+		1B73E5F5251EE9DE005963F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E5F4251EE9DE005963F4 /* ContentView.swift */; };
+		1B73E5F7251EE9DF005963F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B73E5F6251EE9DF005963F4 /* Assets.xcassets */; };
+		1B73E5FA251EE9DF005963F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B73E5F9251EE9DF005963F4 /* Preview Assets.xcassets */; };
+		1B73E605251EE9E0005963F4 /* RevewerTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E604251EE9E0005963F4 /* RevewerTimesTests.swift */; };
+		1B73E610251EE9E0005963F4 /* RevewerTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E60F251EE9E0005963F4 /* RevewerTimesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B73E601251EE9E0005963F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B73E5E7251EE9DE005963F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B73E5EE251EE9DE005963F4;
+			remoteInfo = RevewerTimes;
+		};
+		1B73E60C251EE9E0005963F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B73E5E7251EE9DE005963F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B73E5EE251EE9DE005963F4;
+			remoteInfo = RevewerTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B73E5EF251EE9DE005963F4 /* RevewerTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevewerTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B73E5F2251EE9DE005963F4 /* RevewerTimesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevewerTimesApp.swift; sourceTree = "<group>"; };
+		1B73E5F4251EE9DE005963F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B73E5F6251EE9DF005963F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B73E5F9251EE9DF005963F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B73E5FB251EE9DF005963F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B73E600251EE9E0005963F4 /* RevewerTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevewerTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B73E604251EE9E0005963F4 /* RevewerTimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevewerTimesTests.swift; sourceTree = "<group>"; };
+		1B73E606251EE9E0005963F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B73E60B251EE9E0005963F4 /* RevewerTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevewerTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B73E60F251EE9E0005963F4 /* RevewerTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevewerTimesUITests.swift; sourceTree = "<group>"; };
+		1B73E611251EE9E0005963F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B73E5EC251EE9DE005963F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73E5FD251EE9E0005963F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73E608251EE9E0005963F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B73E5E6251EE9DE005963F4 = {
+			isa = PBXGroup;
+			children = (
+				1B73E5F1251EE9DE005963F4 /* RevewerTimes */,
+				1B73E603251EE9E0005963F4 /* RevewerTimesTests */,
+				1B73E60E251EE9E0005963F4 /* RevewerTimesUITests */,
+				1B73E5F0251EE9DE005963F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B73E5F0251EE9DE005963F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B73E5EF251EE9DE005963F4 /* RevewerTimes.app */,
+				1B73E600251EE9E0005963F4 /* RevewerTimesTests.xctest */,
+				1B73E60B251EE9E0005963F4 /* RevewerTimesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B73E5F1251EE9DE005963F4 /* RevewerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				1B73E5F2251EE9DE005963F4 /* RevewerTimesApp.swift */,
+				1B73E5F4251EE9DE005963F4 /* ContentView.swift */,
+				1B73E5F6251EE9DF005963F4 /* Assets.xcassets */,
+				1B73E5FB251EE9DF005963F4 /* Info.plist */,
+				1B73E5F8251EE9DF005963F4 /* Preview Content */,
+			);
+			path = RevewerTimes;
+			sourceTree = "<group>";
+		};
+		1B73E5F8251EE9DF005963F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B73E5F9251EE9DF005963F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B73E603251EE9E0005963F4 /* RevewerTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B73E604251EE9E0005963F4 /* RevewerTimesTests.swift */,
+				1B73E606251EE9E0005963F4 /* Info.plist */,
+			);
+			path = RevewerTimesTests;
+			sourceTree = "<group>";
+		};
+		1B73E60E251EE9E0005963F4 /* RevewerTimesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B73E60F251EE9E0005963F4 /* RevewerTimesUITests.swift */,
+				1B73E611251EE9E0005963F4 /* Info.plist */,
+			);
+			path = RevewerTimesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B73E5EE251EE9DE005963F4 /* RevewerTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B73E614251EE9E0005963F4 /* Build configuration list for PBXNativeTarget "RevewerTimes" */;
+			buildPhases = (
+				1B73E5EB251EE9DE005963F4 /* Sources */,
+				1B73E5EC251EE9DE005963F4 /* Frameworks */,
+				1B73E5ED251EE9DE005963F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevewerTimes;
+			productName = RevewerTimes;
+			productReference = 1B73E5EF251EE9DE005963F4 /* RevewerTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B73E5FF251EE9E0005963F4 /* RevewerTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B73E617251EE9E0005963F4 /* Build configuration list for PBXNativeTarget "RevewerTimesTests" */;
+			buildPhases = (
+				1B73E5FC251EE9E0005963F4 /* Sources */,
+				1B73E5FD251EE9E0005963F4 /* Frameworks */,
+				1B73E5FE251EE9E0005963F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B73E602251EE9E0005963F4 /* PBXTargetDependency */,
+			);
+			name = RevewerTimesTests;
+			productName = RevewerTimesTests;
+			productReference = 1B73E600251EE9E0005963F4 /* RevewerTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B73E60A251EE9E0005963F4 /* RevewerTimesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B73E61A251EE9E0005963F4 /* Build configuration list for PBXNativeTarget "RevewerTimesUITests" */;
+			buildPhases = (
+				1B73E607251EE9E0005963F4 /* Sources */,
+				1B73E608251EE9E0005963F4 /* Frameworks */,
+				1B73E609251EE9E0005963F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B73E60D251EE9E0005963F4 /* PBXTargetDependency */,
+			);
+			name = RevewerTimesUITests;
+			productName = RevewerTimesUITests;
+			productReference = 1B73E60B251EE9E0005963F4 /* RevewerTimesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B73E5E7251EE9DE005963F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1B73E5EE251EE9DE005963F4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					1B73E5FF251EE9E0005963F4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1B73E5EE251EE9DE005963F4;
+					};
+					1B73E60A251EE9E0005963F4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1B73E5EE251EE9DE005963F4;
+					};
+				};
+			};
+			buildConfigurationList = 1B73E5EA251EE9DE005963F4 /* Build configuration list for PBXProject "RevewerTimes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B73E5E6251EE9DE005963F4;
+			productRefGroup = 1B73E5F0251EE9DE005963F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B73E5EE251EE9DE005963F4 /* RevewerTimes */,
+				1B73E5FF251EE9E0005963F4 /* RevewerTimesTests */,
+				1B73E60A251EE9E0005963F4 /* RevewerTimesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B73E5ED251EE9DE005963F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73E5FA251EE9DF005963F4 /* Preview Assets.xcassets in Resources */,
+				1B73E5F7251EE9DF005963F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73E5FE251EE9E0005963F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73E609251EE9E0005963F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B73E5EB251EE9DE005963F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73E5F5251EE9DE005963F4 /* ContentView.swift in Sources */,
+				1B73E5F3251EE9DE005963F4 /* RevewerTimesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73E5FC251EE9E0005963F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73E605251EE9E0005963F4 /* RevewerTimesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B73E607251EE9E0005963F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B73E610251EE9E0005963F4 /* RevewerTimesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B73E602251EE9E0005963F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B73E5EE251EE9DE005963F4 /* RevewerTimes */;
+			targetProxy = 1B73E601251EE9E0005963F4 /* PBXContainerItemProxy */;
+		};
+		1B73E60D251EE9E0005963F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B73E5EE251EE9DE005963F4 /* RevewerTimes */;
+			targetProxy = 1B73E60C251EE9E0005963F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B73E612251EE9E0005963F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B73E613251EE9E0005963F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B73E615251EE9E0005963F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RevewerTimes/Preview Content\"";
+				DEVELOPMENT_TEAM = S2VVFWD7JE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RevewerTimes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kenta.aikawa.RevewerTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B73E616251EE9E0005963F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RevewerTimes/Preview Content\"";
+				DEVELOPMENT_TEAM = S2VVFWD7JE;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RevewerTimes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kenta.aikawa.RevewerTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B73E618251EE9E0005963F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2VVFWD7JE;
+				INFOPLIST_FILE = RevewerTimesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kenta.aikawa.RevewerTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevewerTimes.app/RevewerTimes";
+			};
+			name = Debug;
+		};
+		1B73E619251EE9E0005963F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2VVFWD7JE;
+				INFOPLIST_FILE = RevewerTimesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kenta.aikawa.RevewerTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevewerTimes.app/RevewerTimes";
+			};
+			name = Release;
+		};
+		1B73E61B251EE9E0005963F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2VVFWD7JE;
+				INFOPLIST_FILE = RevewerTimesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kenta.aikawa.RevewerTimesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RevewerTimes;
+			};
+			name = Debug;
+		};
+		1B73E61C251EE9E0005963F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2VVFWD7JE;
+				INFOPLIST_FILE = RevewerTimesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.kenta.aikawa.RevewerTimesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RevewerTimes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B73E5EA251EE9DE005963F4 /* Build configuration list for PBXProject "RevewerTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73E612251EE9E0005963F4 /* Debug */,
+				1B73E613251EE9E0005963F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B73E614251EE9E0005963F4 /* Build configuration list for PBXNativeTarget "RevewerTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73E615251EE9E0005963F4 /* Debug */,
+				1B73E616251EE9E0005963F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B73E617251EE9E0005963F4 /* Build configuration list for PBXNativeTarget "RevewerTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73E618251EE9E0005963F4 /* Debug */,
+				1B73E619251EE9E0005963F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B73E61A251EE9E0005963F4 /* Build configuration list for PBXNativeTarget "RevewerTimesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B73E61B251EE9E0005963F4 /* Debug */,
+				1B73E61C251EE9E0005963F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B73E5E7251EE9DE005963F4 /* Project object */;
+}
