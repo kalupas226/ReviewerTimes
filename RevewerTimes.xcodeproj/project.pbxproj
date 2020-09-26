@@ -14,6 +14,7 @@
 		1B73E605251EE9E0005963F4 /* RevewerTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E604251EE9E0005963F4 /* RevewerTimesTests.swift */; };
 		1B73E610251EE9E0005963F4 /* RevewerTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E60F251EE9E0005963F4 /* RevewerTimesUITests.swift */; };
 		1B73E622251EF192005963F4 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1B73E621251EF192005963F4 /* ComposableArchitecture */; };
+		1B73E627251EF26D005963F4 /* GitHubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73E626251EF26D005963F4 /* GitHubAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		1B73E60B251EE9E0005963F4 /* RevewerTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevewerTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B73E60F251EE9E0005963F4 /* RevewerTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevewerTimesUITests.swift; sourceTree = "<group>"; };
 		1B73E611251EE9E0005963F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B73E626251EF26D005963F4 /* GitHubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1B73E5F2251EE9DE005963F4 /* RevewerTimesApp.swift */,
 				1B73E5F4251EE9DE005963F4 /* ContentView.swift */,
+				1B73E626251EF26D005963F4 /* GitHubAPIClient.swift */,
 				1B73E5F6251EE9DF005963F4 /* Assets.xcassets */,
 				1B73E5FB251EE9DF005963F4 /* Info.plist */,
 				1B73E5F8251EE9DF005963F4 /* Preview Content */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B73E627251EF26D005963F4 /* GitHubAPIClient.swift in Sources */,
 				1B73E5F5251EE9DE005963F4 /* ContentView.swift in Sources */,
 				1B73E5F3251EE9DE005963F4 /* RevewerTimesApp.swift in Sources */,
 			);
